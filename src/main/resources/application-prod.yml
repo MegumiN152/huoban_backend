@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root152
+    password: 123456
+    url: jdbc:mysql://118.31.105.218:3306/yupi?useUnicode=true&characterEncoding=utf-8&useSSL=false
+  session:
+    timeout: 86400
+    store-type: redis
+  redis:
+    port: 6379
+    host: 118.31.105.218
+    database: 0
+    password: 123456 # 这里添加Redis密码
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+    session:
+      cookie:
+        domain: 118.31.105.218
+        same-site: lax
+        secure: false
