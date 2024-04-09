@@ -12,7 +12,7 @@
 
 ***
 
-Spring Boot + Mybatis(Plus) + MySQL + Redis + WebSocket + Swagger
+Spring Boot + Mybatis(Plus) + MySQL + Redis +knife4j + Swagger
 
 ## 项目前后端部署
 
@@ -34,8 +34,6 @@ npm install
 本地部署将其中的127.0.0.1要和前端的访问地址一致，如果前端访问地址为localhost
 请将127.0.0.1设置为localhost，后面地址为部署上线的地址，打包之后会根据
 isDev判断是的本地环境还是线上环境而使用不同请求地址。
-![](doc/code1.jpg)
-![](doc/code2.jpg)
 
 4. 在package.json文件中使用 dev 启动
 
