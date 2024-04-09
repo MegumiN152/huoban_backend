@@ -5,14 +5,14 @@
 帮助大家找到学习伙伴的移动端 H5 网站（APP 风格），基于 Spring Boot 后端 + Vue3 前端的 全
 栈项目，包括用户登录、更新个人信息、按标签搜索用户、建房组队、推荐相似用户等功能
 
-前端源码已经开源Gebase-front 前台界面，[前端源码项目](https://github.com/MegumiN152/yupao-frontend)
+前端源码已经开源yupi-front 前台界面，[前端源码项目](https://github.com/MegumiN152/yupao-frontend)
 
 
 ## 技术栈
 
 ***
 
-Spring Boot + Mybatis(Plus) + MySQL + Redis +knife4j + Swagger
+Spring Boot + Mybatis(Plus) + MySQL + Redis +knife4j
 
 ## 项目前后端部署
 
